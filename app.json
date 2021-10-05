@@ -4,7 +4,7 @@
     "slug": "DateApp-Mobile",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/images/Things_ToDo@1X",
+    "icon": "./assets/images/logo.png",
     "scheme": "myapp",
     "userInterfaceStyle": "automatic",
     "splash": {

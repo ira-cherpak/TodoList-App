@@ -94,6 +94,7 @@ export default function LoginScreen() {
               onBlur={updateIsFocusedPassword}
           />
           <TouchableOpacity
+              style={styles.touchableOpacity}
               onPress={updateSecureTextEntry}
           >
             {data.secureTextEntry ?
@@ -177,10 +178,17 @@ const styles = StyleSheet.create({
   isFocused: {
     borderBottomColor: '#2189E5',
   },
+  touchableOpacity: {
+    width: 40,
+    height: 40,
+    position: 'absolute',
+    bottom: 10,
+    right: 5
+  },
   icon: {
     position: 'absolute',
-    bottom: 20,
-    right: 10,
+    bottom: 10,
+    right: 0,
   },
   button: {
     alignItems: 'center',
